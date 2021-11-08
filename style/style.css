@@ -10,3 +10,52 @@ body {
 html{
     scroll-behavior: smooth;
 }
+
+.navigation {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(42, 83, 3);
+    border: 1px solid black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-square1, .container-square2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    margin: 2%;
+}
+
+.container-square1 { 
+    margin-left: 12%;
+}
+
+
+.container-rectangle1, .container-rectangle2 {
+    width: 120px;
+    height: 20px;
+    background-color: rgb(38, 0, 255);
+    border: 2px solid black;
+}
+
+.container-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(7, 87, 119) ;
+    border: 1px solid black;
+}
+
+.container-rectangle3 {
+    width: 200px;
+    height: 400px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 2px solid black;
+}
