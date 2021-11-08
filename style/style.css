@@ -19,8 +19,8 @@ html{
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
     position: relative;
 }
 
@@ -82,4 +82,57 @@ html{
     font-size: 35px;
     margin-left: 75%;
     margin-top: 2%;
+}
+
+@media screen and (max-width: 583px) {
+    .container-circle {
+        width: 120px;
+        height: 120px;
+        margin-left: 50%;
+        margin-top: 55%;
+        
+    }
+
+    .container-rectangle1 {
+        margin-left: 15%;
+        margin-top: 62%;
+    }
+
+    .container-rectangle2 {
+        margin-left: 15%;
+        margin-top: 70%;
+    }
+
+    .container-square2 {
+        margin-left: 18%;
+        margin-top: 28%;
+    }
+
+    .container-square1 {
+        margin-left: 40%;
+        margin-top: 40px;
+    }
+
+    .container-square1, .container-square2 {
+        width: 125px;
+        height: 125px;
+    }
+
+    .container-rectangle3 {
+        width: 200px;
+        height: 320px;
+        background-color: rgb(55, 5, 236);
+        font-size: 20px;
+        margin-left:20%;
+        margin-top: 84%;
+        padding-top: 10px;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+   
+}
+
+@media screen and (min-width: 901px) {
+   
 }
