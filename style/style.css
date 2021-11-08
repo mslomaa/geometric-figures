@@ -102,23 +102,23 @@ html{
         width: 120px;
         height: 120px;
         margin-left: 50%;
-        margin-top: 55%;
+        margin-top: 264px;
         
     }
 
     .container-rectangle1 {
         margin-left: 15%;
-        margin-top: 62%;
+        margin-top: 300px;
     }
 
     .container-rectangle2 {
         margin-left: 15%;
-        margin-top: 70%;
+        margin-top: 350px;
     }
 
     .container-square2 {
         margin-left: 18%;
-        margin-top: 28%;
+        margin-top: 143px;
     }
 
     .container-square1 {
@@ -137,7 +137,7 @@ html{
         background-color: rgb(55, 5, 236);
         font-size: 20px;
         margin-left:20%;
-        margin-top: 84%;
+        margin-top: 407px;
         padding-top: 10px;
     }
   }
