@@ -21,41 +21,65 @@ html{
 .container {
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .container-square1, .container-square2 {
+    position: absolute;
     width: 150px;
     height: 150px;
     background-color: red;
-    border: 2px solid black;
+    border: 1px solid black;
     transform: rotate(45deg);
-    margin: 2%;
 }
-
-.container-square1 { 
-    margin-left: 12%;
-}
-
 
 .container-rectangle1, .container-rectangle2 {
+    position: absolute;
     width: 120px;
     height: 20px;
     background-color: rgb(38, 0, 255);
-    border: 2px solid black;
+    border: 1px solid black;
+}
+.container-rectangle1 {
+    margin-left: 41%;
+    margin-top: 9%;
+}
+.container-rectangle2 {
+    margin-left: 41%;
+    margin-top: 12%;
+}
+
+
+.container-square1 {
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.container-square2 {
+    margin-left: 10%;
+    margin-top: 12%;
 }
 
 .container-circle {
+    position: absolute;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     background-color: rgb(7, 87, 119) ;
     border: 1px solid black;
+    margin-left: 51%;
+    margin-top: 8%;
+    
 }
 
 .container-rectangle3 {
+    position: absolute;
     width: 200px;
-    height: 400px;
+    height: 450px;
     background-color: blanchedalmond;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
+    font-size: 35px;
+    margin-left: 75%;
+    margin-top: 2%;
 }
